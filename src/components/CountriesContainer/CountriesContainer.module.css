@@ -1,0 +1,6 @@
+.Countries {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}

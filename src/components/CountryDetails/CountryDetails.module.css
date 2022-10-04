@@ -1,0 +1,72 @@
+.CountryDetails {
+  padding: 2rem;
+}
+.CountryDetails span {
+  font-weight: 600;
+  padding-right: 0.5rem;
+}
+.CountryDetails button {
+  padding: 0.3rem 1.2rem 0.3rem 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  box-shadow: 1px 3px 3px #efefef;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.CountryDetails button p {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+.CountryDetails a {
+  text-decoration: none;
+}
+
+.DetailsSection {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Flag {
+  width: calc(40%);
+}
+.Flag img {
+  width: 100%;
+}
+
+.Details {
+  text-align: left;
+  width: calc(60% - 4rem);
+}
+
+.Description {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: left;
+}
+
+.Description p {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.DescriptionLeft,
+.DescriptionRight {
+  width: 50%;
+}
+
+.Borders p {
+  display: flex;
+  align-items: center;
+}
+.BorderCountries {
+  display: flex;
+}
+.BorderCountries button {
+  padding: 0.3rem 1.2rem;
+}
